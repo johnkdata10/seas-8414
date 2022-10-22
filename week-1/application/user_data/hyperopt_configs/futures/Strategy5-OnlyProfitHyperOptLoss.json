@@ -1,0 +1,39 @@
+{
+  "strategy_name": "Strategy5",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.05,
+      "trailing_stop_positive_offset": 0.1,
+      "trailing_only_offset_is_reached": true
+    },
+    "buy": {
+      "buy_m1": 7,
+      "buy_m2": 7,
+      "buy_m3": 5,
+      "buy_p1": 15,
+      "buy_p2": 20,
+      "buy_p3": 14
+    },
+    "sell": {
+      "sell_m1": 1,
+      "sell_m2": 4,
+      "sell_m3": 3,
+      "sell_p1": 21,
+      "sell_p2": 21,
+      "sell_p3": 12
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.02,
+      "358": 0.089,
+      "642": 0.032,
+      "1320": 0
+    },
+    "stoploss": {
+      "stoploss": -0.32
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-09-04 03:01:12.883622+00:00"
+}

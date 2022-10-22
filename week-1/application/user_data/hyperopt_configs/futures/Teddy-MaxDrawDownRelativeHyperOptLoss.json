@@ -1,0 +1,29 @@
+{
+  "strategy_name": "Teddy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_rsi": 21
+    },
+    "sell": {
+      "sell_rsi": 63
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.25,
+      "40": 0.052,
+      "78": 0.014,
+      "105": 0
+    },
+    "stoploss": {
+      "stoploss": -0.313
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-19 14:49:02.443850+00:00"
+}

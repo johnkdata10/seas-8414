@@ -1,0 +1,77 @@
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| BTC/USDT |     57 |           0.36 |          20.42 |          2248.473 |          22.48 |       17:01:00 |    44     0    13  77.2 |
+|    TOTAL |     57 |           0.36 |          20.42 |          2248.473 |          22.48 |       17:01:00 |    44     0    13  77.2 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     57 |           0.36 |          20.42 |          2248.473 |          22.48 |       17:01:00 |    44     0    13  77.2 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      57 |     44     0    13  77.2 |           0.36 |          20.42 |           2248.47 |          20.42 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+======================= MONTH BREAKDOWN ========================
+|      Month |   Tot Profit USDT |   Wins |   Draws |   Losses |
+|------------+-------------------+--------+---------+----------|
+| 31/01/2022 |           725.845 |      7 |       0 |        1 |
+| 28/02/2022 |           168.919 |      7 |       0 |        1 |
+| 31/03/2022 |           306.121 |      4 |       0 |        2 |
+| 30/04/2022 |            28.61  |      4 |       0 |        3 |
+| 31/05/2022 |           484.183 |      7 |       0 |        1 |
+| 30/06/2022 |           227.635 |      4 |       0 |        1 |
+| 31/07/2022 |            87.285 |      4 |       0 |        0 |
+| 31/08/2022 |           113.328 |      3 |       0 |        1 |
+| 30/09/2022 |           106.547 |      4 |       0 |        3 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-01 00:00:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 57 / 0.21           |
+| Starting balance            | 10000 USDT          |
+| Final balance               | 12248.473 USDT      |
+| Absolute profit             | 2248.473 USDT       |
+| Total profit %              | 22.48%              |
+| CAGR %                      | 31.15%              |
+| Profit factor               | 648.32              |
+| Trades per day              | 0.21                |
+| Avg. daily profit %         | 0.08%               |
+| Avg. stake amount           | 11304.905 USDT      |
+| Total trade volume          | 644379.571 USDT     |
+|                             |                     |
+| Long / Short                | 0 / 57              |
+| Total profit Long %         | 0.00%               |
+| Total profit Short %        | 22.48%              |
+| Absolute profit Long        | 0 USDT              |
+| Absolute profit Short       | 2248.473 USDT       |
+|                             |                     |
+| Best Pair                   | BTC/USDT 20.42%     |
+| Worst Pair                  | BTC/USDT 20.42%     |
+| Best trade                  | BTC/USDT 2.02%      |
+| Worst trade                 | BTC/USDT -0.01%     |
+| Best day                    | 227.461 USDT        |
+| Worst day                   | -1.266 USDT         |
+| Days win/draw/lose          | 43 / 216 / 10       |
+| Avg. Duration Winners       | 21:19:00            |
+| Avg. Duration Loser         | 2:28:00             |
+| Rejected Entry signals      | 11639               |
+| Entry/Exit Timeouts         | 0 / 0               |
+|                             |                     |
+| Min balance                 | 10107.518 USDT      |
+| Max balance                 | 12248.473 USDT      |
+| Max % of account underwater | 0.01%               |
+| Absolute Drawdown (Account) | 0.01%               |
+| Absolute Drawdown           | 1.266 USDT          |
+| Drawdown high               | 1230.761 USDT       |
+| Drawdown low                | 1229.495 USDT       |
+| Drawdown Start              | 2022-04-26 13:55:00 |
+| Drawdown End                | 2022-04-27 11:25:00 |
+| Market change               | -58.02%             |
+=====================================================

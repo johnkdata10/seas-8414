@@ -1,0 +1,49 @@
+{
+  "strategy_name": "Bert",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.05,
+      "trailing_stop_positive_offset": 0.1,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_m1": 6,
+      "buy_m2": 7,
+      "buy_m3": 6,
+      "buy_p1": 19,
+      "buy_p2": 20,
+      "buy_p3": 21,
+      "leverage_num": 1
+    },
+    "sell": {
+      "sell_m1": 5,
+      "sell_m2": 7,
+      "sell_m3": 2,
+      "sell_p1": 14,
+      "sell_p2": 21,
+      "sell_p3": 19
+    },
+    "protection": {
+      "cooldown_lookback": 5,
+      "max_allowed_drawdown": 0.2,
+      "max_drawdown_lookback": 12,
+      "max_drawdown_stop_duration": 12,
+      "max_drawdown_trade_limit": 5,
+      "stoploss_guard_lookback": 12,
+      "stoploss_guard_stop_duration": 12,
+      "stoploss_guard_trade_limit": 3
+    },
+    "roi": {
+      "0": 0.385,
+      "458": 0.185,
+      "971": 0.079,
+      "2144": 0
+    },
+    "stoploss": {
+      "stoploss": -0.323
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-19 15:06:29.682544+00:00"
+}

@@ -1,0 +1,124 @@
+**/*.sqlite
+**/*.fthypt
+**/prod/db/
+**/hyperopt_results/
+**/backtest_results/
+**/data/
+**/prod/data/
+**/user_data/data/
+**/__pycache__/
+**/.ipynb_checkpoints/
+models/dev/hyperopt_results
+models/dev/configs/creds
+**/creds
+**/mmn-external-binance-*.json
+driver
+*~
+.DS_Store
+.idea/
+benchmark
+boost_*
+googletest
+curl
+openssl
+rapidjson
+vault
+world
+zlib
+logs
+*#
+poco
+fix8
+lmax_fix8
+galaxy_fix8
+libzmq
+cppzmq
+tgw
+ogw
+agw
+mdgw
+pad
+markprice
+banzai
+*.log
+*.egress
+*.ingress
+*.log.*
+config/stunnel.*
+arb
+apigw
+triarb
+basis
+autohedger
+hybgw
+basicmm
+sql-migrations/migrations/**/*.sql
+aob
+mrkp
+app_defs/generated-*
+coinbase_fix8
+cyrus-sasl-2.1.27
+librdkafka
+lz4
+postgresql-14.1
+ftx_fix8
+*.swp
+apigw
+tests/Unit/**/*.cc
+tests/Unit/**/*.o
+tests/Unit/**/*Tests
+./strategy
+.vscode
+llvm-project
+CMake
+dragonbox
+.deps/*
+Python-3.8.0
+flyway-8.4.2
+src/Strategy/Hosted/Rebalancer/python/__pycache__
+src/Exchange/Common/Event/EnumCast.hpp
+src/Gateway/Internal/WebSocketServer/Event/EnumCast.hpp
+Pipfile
+Pipfile.lock
+scripts/app_defs/__pycache__
+scripts/coinListings/__pycache__
+cpp-statsd-client
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+**/.terraform.lock.hcl
+**/*.pem
+**/*.rdb

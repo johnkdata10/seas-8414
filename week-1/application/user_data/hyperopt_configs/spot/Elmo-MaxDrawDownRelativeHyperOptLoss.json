@@ -1,0 +1,29 @@
+{
+  "strategy_name": "Elmo",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_rsi": 21
+    },
+    "sell": {
+      "sell_rsi": 61
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.22499999999999998,
+      "10": 0.079,
+      "53": 0.039,
+      "85": 0
+    },
+    "stoploss": {
+      "stoploss": -0.341
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-19 14:42:16.063197+00:00"
+}

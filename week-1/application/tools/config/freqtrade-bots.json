@@ -1,0 +1,11 @@
+{
+"api_server": {
+    "enabled": true,
+    "listen_ip_address": "0.0.0.0",
+    "listen_port": 8001,
+    "verbosity": "info",
+    "jwt_secret_key": "Seas8414Seas8414",
+    "username": "trader",
+    "password": "Seas8414"
+  }
+}

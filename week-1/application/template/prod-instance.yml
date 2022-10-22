@@ -1,0 +1,19 @@
+  INSTANCE:
+      image: freqtradeorg/freqtrade:develop
+      restart: unless-stopped
+      container_name: INSTANCE
+      volumes:
+        - "./prod:/freqtrade/user_data"
+      ports:
+        - "0.0.0.0:PORT:8080"
+      command: >
+        trade
+        --db-url sqlite:////freqtrade/user_data/db/INSTANCE.sqlite
+        --logfile /freqtrade/user_data/logs/INSTANCE.log
+        --config /freqtrade/user_data/configs/binance/INSTANCE-pair.json
+        --config /freqtrade/user_data/configs/INSTANCE.json
+        --config /freqtrade/user_data/configs/MARKET-market.json
+        --config /freqtrade/user_data/configs/instances/INSTANCE.json
+        --config /freqtrade/user_data/configs/creds/mmn-external-ACCOUNT.json
+        --config /freqtrade/user_data/configs/instances/INSTANCE-telegram.json
+        --strategy INSTANCE
