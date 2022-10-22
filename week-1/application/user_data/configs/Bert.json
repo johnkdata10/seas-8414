@@ -34,7 +34,7 @@
   },
   "edge": {
     "enabled": false,
-    "process_throttle_sseas": 1800,
+    "process_throttle_secs": 1800,
     "calculate_since_number_of_days": 14,
     "allowed_risk": 0.01,
     "stoploss_range_min": -0.01,
@@ -52,13 +52,13 @@
     "listen_port": 8080,
     "verbosity": "info",
     "jwt_secret_key": "312somethingrandom",
-    "CORS_origins": [],
+    "CORS_origins": [""],
     "username": "trader",
-    "password": "Seas-8414"
+    "password": "Seas8414"
   },
   "initial_state": "running",
   "force_entry_enable": true,
   "internals": {
-    "process_throttle_sseas": 5
+    "process_throttle_secs": 5
   }
 }
