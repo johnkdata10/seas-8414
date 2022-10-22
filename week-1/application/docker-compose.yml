@@ -12,12 +12,12 @@ services:
       command: >
         trade
         --dry-run
-        --dry-run-wallet 1000
+        --dry-run-wallet 10000
         --db-url sqlite:////freqtrade/user_data/db/dev-Elmo.sqlite
         --logfile /freqtrade/user_data/logs/Elmo.log
         --config /freqtrade/user_data/configs/binance/Elmo-pair.json
         --config /freqtrade/user_data/configs/Elmo.json
-        --config /freqtrade/user_data/configs/spot-market.json
+        --config /freqtrade/user_data/configs/futures-market.json
         --config /freqtrade/user_data/configs/instances/Elmo.json
         --strategy Elmo
 

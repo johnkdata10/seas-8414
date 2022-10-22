@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  n1:
+    image: nodejs-image:latest
+    ports:
+      - "8080:8080"

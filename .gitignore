@@ -1,3 +1,4 @@
+**/*.sqlite-shm
 **/*.sqlite
 **/*.fthypt
 **/prod/db/

@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  a:
+    image: nginx
+    networks:
+      - public
+
+  b:
+    image: nginx
+    networks:
+      - private
+
+networks:
+  public:
+  private:

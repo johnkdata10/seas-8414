@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/rm/Documents/master-class/building-blocks/namespace","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

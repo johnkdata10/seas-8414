@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+  a:
+    image: nginx
+    networks:
+      - public
+    volumes:
+      - ./a.conf:/a.conf
+
+  b:
+    image: nginx
+    networks:
+      - private
+      - public
+    volumes:
+      - ./b.conf.d/:/bigconfig.d/
+
+  c:
+    image: nginx
+    networks:
+      - internal
+    volumes:
+      - namedvolume:/namedvolume
+
+  d:
+    image: nginx
+    networks:
+      - private
+    volumes_from:
+      - b:ro
+
+networks:
+  public:
+  private:
+  internal:
+
+volumes:
+  namedvolume:
